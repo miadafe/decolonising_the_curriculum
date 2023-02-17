@@ -1,0 +1,236 @@
+A-0.01    Periodicals 
+A-0.02    Series
+A-0.03    Collected essays, Festschriften etc.
+A-0.04    Bibliography 
+A-0.07    Study and teaching
+A-0.19    Dictionaries and encyclopaedias 
+A-3        Philosophy of religion in general 
+A-4        History of religion (origins) 
+B-0    General; commentaries
+B-0.04    Bibliography
+B-1    Texts and translations
+B-1.2    History of translations
+B-2     Concordances
+B-3    Dictionaries and encyclopaedias
+B-4    Archaeology and history, as background to biblical studies: otherwise, Ancient History
+B-5    Biography
+B-6    Geography 
+B-7    Theology
+B-8    Literary aspects (include hermeneutics)
+C-0 General
+C-1 Archaeology and history, as background to biblical studies
+C-1.5  Folklore of the Old T estament
+C-1.8 Geography
+C-2  Biography
+C-2.5 Literary aspects
+C-3 Theology & religion
+C-4 Pentateuch
+C-4.4 Genesis
+C-4.5  Exodus
+C-4.6  Leviticus
+C-4.7  Numbers
+C-4.8  Deuteronomy
+C-5 Historical books
+C-5.1  Joshua
+C-5.2  Judges
+C-5.3  Ruth
+C-5.4  Samuel
+C-5.5  Kings
+C-5.6  Chronicles
+C-5.7  Ezra
+C-5.8  Nehemiah
+C-5.9  Esther
+C-6 Poetical books
+C-6.2  Job
+C-6.3  Psalms
+C-6.5  Proverbs
+C-6.6  Ecclesiastes (Kohelet)
+C-6.7  Song of songs
+C-7 Prophets C-7.3 Isaiah
+C-7.6  Jeremiah
+C-7.7  Lamentations
+C-7.8  Ezekiel
+C-7.9  Daniel
+C-8 Minor prophets
+C-8.1  Hosea
+C-8.2  Joel
+C-8.3  Amos
+C-8.4  Obadiah
+C-8.5  Jonah
+C-8.6  Micah
+C-8.65 Nahum 
+C-8.7 Habakkuk 
+C-8.75 Zephaniah 
+C-8.8 Haggai 
+C-8.85 Zechariah 
+C-8.9 Malachi
+D-0 General (including texts)
+D-0.03 Literary aspects
+D-0.05 Study & teaching
+[D-0.19 Dictionaries]
+D-1 Archaeology and history: as background to biblical study
+D-1.8 Geography
+D-2 Biography
+D-3 Theology & religion
+D-4 Gospels
+D-4.1 Synoptic gospels
+ D-4.3 Matthew
+D-4.5 Mark
+D-4.7 Luke
+D-4.9 John
+D-5 Acts of the Apostles
+D-6 Epistles
+D-6.01 Paul
+D-6.1 Romans
+D-6.2 Corinthians
+D-6.3 Galatians
+D-6.4 Captivity epistles
+D-6.41  Ephesians
+D-6.42 Philippians
+D-6.43 Colossians, Philemon
+D-6.5 Thessalonians
+D-6.6 Pastoral epistles (Timothy, Titus)
+D-6.7 Hebrews
+D-6.8 Catholic epistles
+D-6.81 Peter
+D-6.82 John
+D-6.83 James, Jude
+D-7 Revelation
+E-0 General
+E-0.04 Bibliography
+E-1 Old Testament
+E-2 New T estament
+F-0 General
+F-1 Patrology (Church Fathers)
+F-2 Ante-Nicene (to 325 AD)
+F-2.1 Apostolic and sub-Apostolic Fathers
+F-2.3 Apologists
+F-2.31 Justin Martyr
+F-2.5 2nd–3rd centuries
+F-2.51 Tertullian
+F-2.53 Irenaeus
+F-2.55 Cyprian
+F-2.59 Minor figures
+F-2.7 Alexandrians
+F-2.71 Clement
+F-2.73 Origen
+F-2.74  Didymus
+F-2.75 Evagrius
+F-2.79 Minor figures
+F-3 Nicaea to Chalcedon
+F-3.1 Athanasius
+F-3.2 Cyril of Alexandria
+F-3.4 Eusebius
+F-3.6 Antiochians
+F-3.61 John Chrysostom
+F-3.63 Theodore of Mopsuestia
+F-3.65 Theodoret
+F-3.8 Cappadocians
+F-3.81 Basil of Caesarea
+F-3.83 Gregory of Nyssa
+F-3.85 Gregory of Nazianzus
+F-3.9 Minor figures
+F-4 Nicaea to Chalcedon
+F-4.1 Hilary of Poitiers
+F-4.3 Ambrose
+F-4.5 Jerome
+F-4.7 Augustine
+F-4.8 Pelagius and the Pelagians
+F-4.9 Minor figures
+F-5 Orthodox church
+F-5.1 John Damascenus
+F-5.7 Greek Orthodox
+F-5.8 Russian Orthodox
+F-5.9 Minor figures
+F-6 Mediaeval Western Church (post-Chalcedon) 
+F-6.04 Bibliography
+F-6.5 Late medieval
+F-7 Reformation
+F-7.04 Bibliography
+F-7.1 Wittenberg
+F-7.13 Luther
+F-7.15 Melanchthon
+F-7.3 South Germany
+F-7.33 Bucer
+F-7.35 Brenz
+F-7.4 Lutheran Church: Augsburg Confession
+F-7.5 Swiss Confederation
+F-7.53 Zwingli
+F-7.55 Bullinger
+F-7.7 Geneva
+F-7.73 Calvin
+F-7.75 Beza
+F-7.8 Other countries
+F-7.9 Sects
+F-7.91 Karlstadt
+F-7.93 Müntzer
+F-7.95 Baptists and Anabaptists
+F-7.97 Socinians, and other anti-Trinitarians
+F-8 Protestant and Reformed Churches
+F-8.5 Before 1600
+F-8.6  17th century
+F-8.7  18th century
+F-8.8  19th century
+F-8.9  20th century
+F-8.95 21st century
+F-9 Roman Catholic
+F-9.1  Trent-1600
+F-9.2  17-18th centuries
+F-9.3  19th century
+F-9.7  20th century
+F-9.8  21st century
+F-10  Other churches, e.g. Armenian, Coptic, Syrian
+F-11  Contemporary theology (from 1970): Liberation theology, feminist theology etc.
+G-0 General
+H-0 General
+H-1 Worship and liturgies
+H-1.04 Bibliography
+H-2  Missions
+H-3  Spirituality & mysticism
+H-3.04  Bibliography
+H-3.5  Individual mystics & spiritual writers
+H-5 Church organization, including management, leadership
+H-7  Pastoral activities
+H-8  Preaching
+H-9  Moral theology
+J-0 Comparative religion; relations of Christianity and other religions
+J-1 Judaism
+J-1.1 Theology
+J-1.2 Philosophy
+J-1.3 Liturgies, Synagogues, Rabbis
+J-1.4 Religious practices; Devotion
+J-1.5 Spirituality & mysticism
+J-1.6 Sects
+J-1.7 History of Judaism
+J-1.8 Judaism in relation to other religions
+J-2 Islam
+J-2.1 Qur'an; Hadith
+J-2.2 Theology
+J-2.3 Sufism
+J-2.38 Other mystics
+J-2.4 Religious practices; devotion
+J-2.5 Sects
+J-2.52 Individual sects
+J-2.55 Shi'ah
+J-2.8 Social institutions & culture
+J-3 Iranian religions (e.g. Mithras)
+J-3.6 Zoroaster
+J-4 Gnosticism, Mandaeism, Manichaeism
+J-5 Asian religions
+J-5.3 Parseeism
+J-5.4 Jainism
+J-5.5 Sikhism
+J-6 Hinduism
+J-6.1 History
+J-6.2 Classical texts and commentaries
+J-6.3 Theology and philosophy
+J-6.4 Social institutions and culture
+J-7 Buddhism
+J-7.1 History
+J-7.2 Texts and commentaries
+J-7.3 Buddhist thought
+J-7.4 Social institutions and culture
+J-8 Chinese religions (Confucianism, Taoism)
+J-8.9 Other far eastern (except Japanese)
+J-9 Japanese religions (Shinto, etc.) see also Japanese L
+J-10 Baha'i religion

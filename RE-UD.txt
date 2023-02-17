@@ -1,0 +1,90 @@
+21      Prehistoric and primitive religions
+21-1     Theory and philosophy of religion. Nature of religion. Phenomenon of religion
+21-2    Evidences of religion
+21-3    Persons in religion
+21-4    Religious activities. Religious practice
+21-5    Worship broadly. Cult. Rites and ceremonies
+21-6    Processes in religion
+21-7    Religious organization and administration
+21-8    Religions characterised by various properties
+21-9    History of the faith, religion, denomination or church
+22    Religions originating in the Far East
+22-1     Theory and philosophy of religion. Nature of religion. Phenomenon of religion
+22-2    Evidences of religion
+22-3    Persons in religion
+22-4    Religious activities. Religious practice
+22-5    Worship broadly. Cult. Rites and ceremonies
+22-6    Processes in religion
+22-7    Religious organization and administration
+22-8    Religions characterised by various properties
+22-9    History of the faith, religion, denomination or church
+23    Religions originating in Indian sub-continent. Hindu religion in the broad sense
+23-1     Theory and philosophy of religion. Nature of religion. Phenomenon of religion
+23-2    Evidences of religion
+23-3    Persons in religion
+23-4    Religious activities. Religious practice
+23-5    Worship broadly. Cult. Rites and ceremonies
+23-6    Processes in religion
+23-7    Religious organization and administration
+23-8    Religions characterised by various properties
+23-9    History of the faith, religion, denomination or church
+24    Buddhism
+24-1     Theory and philosophy of religion. Nature of religion. Phenomenon of religion
+24-2    Evidences of religion
+24-3    Persons in religion
+24-4    Religious activities. Religious practice
+24-5    Worship broadly. Cult. Rites and ceremonies
+24-6    Processes in religion
+24-7    Religious organization and administration
+24-8    Religions characterised by various properties
+24-9    History of the faith, religion, denomination or church
+25    Religions of antiquity. Minor cults and religions
+25-1     Theory and philosophy of religion. Nature of religion. Phenomenon of religion
+25-2    Evidences of religion
+25-3    Persons in religion
+25-4    Religious activities. Religious practice
+25-5    Worship broadly. Cult. Rites and ceremonies
+25-6    Processes in religion
+25-7    Religious organization and administration
+25-8    Religions characterised by various properties
+25-9    History of the faith, religion, denomination or church
+26    Judaism
+26-1     Theory and philosophy of religion. Nature of religion. Phenomenon of religion
+26-2    Evidences of religion
+26-3    Persons in religion
+26-4    Religious activities. Religious practice
+26-5    Worship broadly. Cult. Rites and ceremonies
+26-6    Processes in religion
+26-7    Religious organization and administration
+26-8    Religions characterised by various properties
+26-9    History of the faith, religion, denomination or church
+27    Christianity
+27-1     Theory and philosophy of religion. Nature of religion. Phenomenon of religion
+27-2    Evidences of religion
+27-3    Persons in religion
+27-4    Religious activities. Religious practice
+27-5    Worship broadly. Cult. Rites and ceremonies
+27-6    Processes in religion
+27-7    Religious organization and administration
+27-8    Religions characterised by various properties
+27-9    History of the faith, religion, denomination or church
+28    Islam
+28-1     Theory and philosophy of religion. Nature of religion. Phenomenon of religion
+28-2    Evidences of religion
+28-3    Persons in religion
+28-4    Religious activities. Religious practice
+28-5    Worship broadly. Cult. Rites and ceremonies
+28-6    Processes in religion
+28-7    Religious organization and administration
+28-8    Religions characterised by various properties
+28-9    History of the faith, religion, denomination or church
+29    Modern spiritual movements
+29-1     Theory and philosophy of religion. Nature of religion. Phenomenon of religion
+29-2    Evidences of religion
+29-3    Persons in religion
+29-4    Religious activities. Religious practice
+29-5    Worship broadly. Cult. Rites and ceremonies
+29-6    Processes in religion
+29-7    Religious organization and administration
+29-8    Religions characterised by various properties
+29-9    History of the faith, religion, denomination or church
