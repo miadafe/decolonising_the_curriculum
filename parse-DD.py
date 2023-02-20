@@ -1,43 +1,54 @@
 from nltk.tokenize import sent_tokenize
+import string
 
 with open("dewey.arff", "w", encoding="utf-8") as f:
   f.write(
     "@RELATION dewey\n\n"
     "@ATTRIBUTE text   string\n"
-    "@ATTRIBUTE class  {CH,IS,EA,HD,BU,JU,OT}\n\n"
+    "@ATTRIBUTE class  {CH,IS,EA,HD,BU,JU,OT,GE}\n\n"
     "@DATA\n"
   )
 
 religions = ["CH","IS","EA","HD","BU","JU","OT","GE"]
+system = ["DD", "LU", "UD"]
 
-for system in ["DD", "LU", "UD"]:
-  with open("RE-" + system + ".txt", "r", encoding="utf-8") as f:
+#parsing functions
+def deweyParse(para):
+    with open("dewey.arff", "a", encoding="utf-8") as f:
+        for sentence in para:
+            #is removing punc still necessary?:
+            sentence = sentence.translate(str.maketrans('', '', string.punctuation))
+            #add quote mark to beginning of sentence
+            sentence = '" ' + sentence
+            code = sentence.split()
+            #code[1] represents the number part of the line
+            if (int(code[1]) >= 200 and int(code[1]) <220):
+                sentence += "\", GE\n"
+                f.write(sentence)
+            elif (int(code[1]) >= 220 and int(code[1]) <290):
+                sentence += "\", CH\n"
+                f.write(sentence)
+            else:
+                sentence += "\", OT\n"
+                f.write(sentence)
+    return 0
+
+def leedsParse(para):
+    return 0
+
+def universalParse(para):
+    return 0
+
+
+with open("RE-" + system[0] + ".txt", "r", encoding="utf-8") as f:
+    # para = f.readlines()
+    para = f.read().splitlines()
+    deweyParse(para)
+
+with open("RE-" + system[1] + ".txt", "r", encoding="utf-8") as f:
     para = f.readlines()
+    leedsParse(para)
 
-  with open("dewey.arff", "a", encoding="utf-8") as f:
-    for sentence in para:
-      tokenized = sent_tokenize(sentence, language="english")
-      for line in tokenized:
-        # line = line.replace("\"", "\\\"")
-        # line = line.replace("<p>", "\"")
-        code = line.split(" ")
-        if (int(code[0]) >= 200 and int(code[0]) <220):
-            line = line.replace("</p>", "\", " + "GE" + "\n")
-            f.write(line)
-        elif (int(code[0]) >= 220 and int(code[0]) <290):
-            line = line.replace("</p>", "\", " + "CH" + "\n")
-            f.write(line)
-        else:
-            line = line.replace("</p>", "\", " + "OT" + "\n")
-            f.write(line)
-        if line[0] != "\"":
-          line = "\" " + line
-
-
-        # if "<doc" not in line and "</doc>" not in line and len(line) > 15:
-        #   if line[0] != "\"":
-        #     line = "\" " + line
-
-          # if str("\", "+religions) not in line:
-          #   line = line.strip() + "\", " + religions + "\n"
-          #   f.write(line)
+with open("RE-" + system[2] + ".txt", "r", encoding="utf-8") as f:
+    para = f.readlines()
+    universalParse(para)
