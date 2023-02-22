@@ -1,0 +1,96 @@
+@RELATION universal
+
+@ATTRIBUTE text   string
+@ATTRIBUTE class  {CH,IS,EA,HD,BU,JU,OT,GE}
+
+@DATA
+" 21      Prehistoric and primitive religions", GE
+" 211     Theory and philosophy of religion Nature of religion Phenomenon of religion", GE
+" 212    Evidences of religion", GE
+" 213    Persons in religion", GE
+" 214    Religious activities Religious practice", GE
+" 215    Worship broadly Cult Rites and ceremonies", GE
+" 216    Processes in religion", GE
+" 217    Religious organization and administration", GE
+" 218    Religions characterised by various properties", GE
+" 219    History of the faith religion denomination or church", GE
+" 22    Religions originating in the Far East", EA
+" 221     Theory and philosophy of religion Nature of religion Phenomenon of religion", EA
+" 222    Evidences of religion", EA
+" 223    Persons in religion", EA
+" 224    Religious activities Religious practice", EA
+" 225    Worship broadly Cult Rites and ceremonies", EA
+" 226    Processes in religion", EA
+" 227    Religious organization and administration", EA
+" 228    Religions characterised by various properties", EA
+" 229    History of the faith religion denomination or church", EA
+" 23    Religions originating in Indian subcontinent Hindu religion in the broad sense", HD
+" 231     Theory and philosophy of religion Nature of religion Phenomenon of religion", HD
+" 232    Evidences of religion", HD
+" 233    Persons in religion", HD
+" 234    Religious activities Religious practice", HD
+" 235    Worship broadly Cult Rites and ceremonies", HD
+" 236    Processes in religion", HD
+" 237    Religious organization and administration", HD
+" 238    Religions characterised by various properties", HD
+" 239    History of the faith religion denomination or church", HD
+" 24    Buddhism", BU
+" 241     Theory and philosophy of religion Nature of religion Phenomenon of religion", BU
+" 242    Evidences of religion", BU
+" 243    Persons in religion", BU
+" 244    Religious activities Religious practice", BU
+" 245    Worship broadly Cult Rites and ceremonies", BU
+" 246    Processes in religion", BU
+" 247    Religious organization and administration", BU
+" 248    Religions characterised by various properties", BU
+" 249    History of the faith religion denomination or church", BU
+" 25    Religions of antiquity Minor cults and religions", OT
+" 251     Theory and philosophy of religion Nature of religion Phenomenon of religion", OT
+" 252    Evidences of religion", OT
+" 253    Persons in religion", OT
+" 254    Religious activities Religious practice", OT
+" 255    Worship broadly Cult Rites and ceremonies", OT
+" 256    Processes in religion", OT
+" 257    Religious organization and administration", OT
+" 258    Religions characterised by various properties", OT
+" 259    History of the faith religion denomination or church", OT
+" 26    Judaism", JU
+" 261     Theory and philosophy of religion Nature of religion Phenomenon of religion", JU
+" 262    Evidences of religion", JU
+" 263    Persons in religion", JU
+" 264    Religious activities Religious practice", JU
+" 265    Worship broadly Cult Rites and ceremonies", JU
+" 266    Processes in religion", JU
+" 267    Religious organization and administration", JU
+" 268    Religions characterised by various properties", JU
+" 269    History of the faith religion denomination or church", JU
+" 27    Christianity", CH
+" 271     Theory and philosophy of religion Nature of religion Phenomenon of religion", CH
+" 272    Evidences of religion", CH
+" 273    Persons in religion", CH
+" 274    Religious activities Religious practice", CH
+" 275    Worship broadly Cult Rites and ceremonies", CH
+" 276    Processes in religion", CH
+" 277    Religious organization and administration", CH
+" 278    Religions characterised by various properties", CH
+" 279    History of the faith religion denomination or church", CH
+" 28    Islam", IS
+" 281     Theory and philosophy of religion Nature of religion Phenomenon of religion", IS
+" 282    Evidences of religion", IS
+" 283    Persons in religion", IS
+" 284    Religious activities Religious practice", IS
+" 285    Worship broadly Cult Rites and ceremonies", IS
+" 286    Processes in religion", IS
+" 287    Religious organization and administration", IS
+" 288    Religions characterised by various properties", IS
+" 289    History of the faith religion denomination or church", IS
+" 29    Modern spiritual movements", OT
+" 291     Theory and philosophy of religion Nature of religion Phenomenon of religion", OT
+" 292    Evidences of religion", OT
+" 293    Persons in religion", OT
+" 294    Religious activities Religious practice", OT
+" 295    Worship broadly Cult Rites and ceremonies", OT
+" 296    Processes in religion", OT
+" 297    Religious organization and administration", OT
+" 298    Religions characterised by various properties", OT
+" 299    History of the faith religion denomination or church", OT

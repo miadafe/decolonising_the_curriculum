@@ -1,0 +1,106 @@
+@RELATION dewey
+
+@ATTRIBUTE text   string
+@ATTRIBUTE class  {CH,IS,EA,HD,BU,JU,OT,GE}
+
+@DATA
+" 200 Religion", GE
+" 201 Religious mythology general classes of religion interreligious relations and attitudes social theology", GE
+" 202 Doctrines", GE
+" 203 Public worship and other practices", GE
+" 204 Religious experience life practice", GE
+" 205 Religious ethics", GE
+" 206 Leaders and organization", GE
+" 207 Missions and religious education", GE
+" 208 Sources", GE
+" 209 Sects and reform movements", GE
+" 210 Philosophy  theory of religion", GE
+" 211 Concepts of God", GE
+" 212 Existence ways of knowing God attributes of God", GE
+" 213 Creation", GE
+" 214 Theodicy", GE
+" 215 Science  religion", GE
+" 216 No longer used—formerly Evil", GE
+" 217 No longer used—formerly Prayer", GE
+" 218 Humankind", GE
+" 219 No longer used—formerly Analogies", GE
+" 220 The Bible", CH
+" 221 Old Testament Tanakh", CH
+" 222 Historical books of Old Testament", CH
+" 223 Poetic books of Old Testament", CH
+" 224 Prophetic books of Old Testament", CH
+" 225 New Testament", CH
+" 226 Gospels  Acts", CH
+" 227 Epistles", CH
+" 228 Revelation Apocalypse", CH
+" 229 Apocrypha pseudepigrapha  intertestamental works", CH
+" 230 Christianity", CH
+" 231 God", CH
+" 232 Jesus Christ  his family", CH
+" 233 Humankind", CH
+" 234 Salvation  grace", CH
+" 235 Spiritual beings", CH
+" 236 Eschatology", CH
+" 237 No longer used—formerly Future state", CH
+" 238 Creeds confessions of faith covenants  catechisms", CH
+" 239 Apologetics  polemics", CH
+" 240 Christian moral and devotional theology", CH
+" 241 Christian ethics", CH
+" 242 Devotional literature", CH
+" 243 Evangelistic writings for individuals and families", CH
+" 244 No longer used—formerly Religious fiction", CH
+" 245 No longer used—formerly Hymnology", CH
+" 246 Use of art in Christianity", CH
+" 247 Church furnishings  related articles", CH
+" 248 Christian experience practice life", CH
+" 249 Christian observances in family life", CH
+" 250 Local Christian church and Christian religious orders", CH
+" 251 Preaching Homiletics", CH
+" 252 Texts of sermons", CH
+" 253 Pastoral office and work Pastoral theology", CH
+" 254 Parish administration", CH
+" 255 Religious congregations  orders", CH
+" 256 No longer used—formerly Religious societies", CH
+" 257 No longer used—formerly Parochial schools libraries etc", CH
+" 258 No longer used—formerly Parochial medicine", CH
+" 259 Pastoral care of families of specific groups of people", CH
+" 260 Christian social and ecclesiastical theology", CH
+" 261 Social theology and interreligious relations and attitudes", CH
+" 262 Ecclesiology", CH
+" 263 Days times places of religious observance", CH
+" 264 Public worship", CH
+" 265 Sacraments other rites  acts", CH
+" 266 Missions", CH
+" 267 Associations for religious work", CH
+" 268 Religious education", CH
+" 269 Spiritual renewal", CH
+" 270 History geographic treatment biography of Christianity", CH
+" 271 Religious congregations and orders in church history", CH
+" 272 Persecutions in church history", CH
+" 273 Doctrinal controversies and heresies in general church history", CH
+" 274 Christianity in Europe", CH
+" 275 Christianity in Asia", CH
+" 276 Christianity in Africa", CH
+" 277 Christianity in North America", CH
+" 278 Christianity in South America", CH
+" 279 History of Christianity in other areas", CH
+" 280 Denominations and sects of Christian church", CH
+" 281 Early church  Eastern churches", CH
+" 282 Roman Catholic Church", CH
+" 283 Anglican churches", CH
+" 284 Protestant denominations of Continental origin  related body", CH
+" 285 Presbyterian churches Reformed churches centered in America Congregational churches", CH
+" 286 Baptist Restoration Movement Adventist churches", CH
+" 287 Methodist churches churches related to Methodism", CH
+" 288 No longer used—formerly Unitarian", CH
+" 289 Other denominations  sects", CH
+" 290 Other religions", OT
+" 291 No longer used—formerly Comparative religion", OT
+" 292 Classical religion Greek  Roman religion", OT
+" 293 Germanic religion", OT
+" 294 Religions of Indic origin", OT
+" 295 Zoroastrianism Mazdaism Parseeism", OT
+" 296 Judaism", JU
+" 297 Islam Bábism  Baháí Faith", IS
+" 298 No longer used—formerly Mormonism", OT
+" 299 Religions not provided for elsewhere", OT
