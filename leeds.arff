@@ -4,221 +4,221 @@
 @ATTRIBUTE class  {CH,IS,EA,HD,BU,JU,OT,GE}
 
 @DATA
-" A001    Periodicals ", GE
-" A002    Series", GE
-" A003    Collected essays Festschriften etc", GE
-" A004    Bibliography ", GE
-" A007    Study and teaching", GE
-" A019    Dictionaries and encyclopaedias ", GE
-" A3        Philosophy of religion in general ", GE
-" A4        History of religion origins ", GE
-" B0    General commentaries", CH
-" B004    Bibliography", CH
-" B1    Texts and translations", CH
-" B12    History of translations", CH
-" B2     Concordances", CH
-" B3    Dictionaries and encyclopaedias", CH
-" B4    Archaeology and history as background to biblical studies otherwise Ancient History", CH
-" B5    Biography", CH
-" B6    Geography ", CH
-" B7    Theology", CH
-" B8    Literary aspects include hermeneutics", CH
-" C0 General", CH
-" C1 Archaeology and history as background to biblical studies", CH
-" C15  Folklore of the Old T estament", CH
-" C18 Geography", CH
-" C2  Biography", CH
-" C25 Literary aspects", CH
-" C3 Theology  religion", CH
-" C4 Pentateuch", CH
-" C44 Genesis", CH
-" C45  Exodus", CH
-" C46  Leviticus", CH
-" C47  Numbers", CH
-" C48  Deuteronomy", CH
-" C5 Historical books", CH
-" C51  Joshua", CH
-" C52  Judges", CH
-" C53  Ruth", CH
-" C54  Samuel", CH
-" C55  Kings", CH
-" C56  Chronicles", CH
-" C57  Ezra", CH
-" C58  Nehemiah", CH
-" C59  Esther", CH
-" C6 Poetical books", CH
-" C62  Job", CH
-" C63  Psalms", CH
-" C65  Proverbs", CH
-" C66  Ecclesiastes Kohelet", CH
-" C67  Song of songs", CH
-" C7 Prophets C73 Isaiah", CH
-" C76  Jeremiah", CH
-" C77  Lamentations", CH
-" C78  Ezekiel", CH
-" C79  Daniel", CH
-" C8 Minor prophets", CH
-" C81  Hosea", CH
-" C82  Joel", CH
-" C83  Amos", CH
-" C84  Obadiah", CH
-" C85  Jonah", CH
-" C86  Micah", CH
-" C865 Nahum ", CH
-" C87 Habakkuk ", CH
-" C875 Zephaniah ", CH
-" C88 Haggai ", CH
-" C885 Zechariah ", CH
-" C89 Malachi", CH
-" D0 General including texts", CH
-" D003 Literary aspects", CH
-" D005 Study  teaching", CH
-" D019 Dictionaries", CH
-" D1 Archaeology and history as background to biblical study", CH
-" D18 Geography", CH
-" D2 Biography", CH
-" D3 Theology  religion", CH
-" D4 Gospels", CH
-" D41 Synoptic gospels", CH
+"A001 Christianity     Periodicals ", CH
+" A002 Christianity     Series", GE
+" A003 Christianity     Collected essays Festschriften etc", GE
+" A004 Christianity     Bibliography ", GE
+" A007 Christianity     Study and teaching", GE
+" A019 Christianity     Dictionaries and encyclopaedias ", GE
+" A3 Christianity         Philosophy of religion in general ", GE
+" A4 Christianity         History of religion origins ", GE
+" B0 Christianity     General commentaries", CH
+" B004 Christianity     Bibliography", CH
+" B1 Christianity     Texts and translations", CH
+" B12 Christianity     History of translations", CH
+" B2 Christianity      Concordances", CH
+" B3 Christianity     Dictionaries and encyclopaedias", CH
+" B4 Christianity     Archaeology and history as background to biblical studies otherwise Ancient History", CH
+" B5 Christianity     Biography", CH
+" B6 Christianity     Geography ", CH
+" B7 Christianity     Theology", CH
+" B8 Christianity     Literary aspects include hermeneutics", CH
+" C0 Christianity  General", CH
+" C1 Christianity  Archaeology and history as background to biblical studies", CH
+" C15 Christianity   Folklore of the Old Testament", CH
+" C18 Christianity  Geography", CH
+" C2 Christianity   Biography", CH
+" C25 Christianity  Literary aspects", CH
+" C3 Christianity  Theology  religion", CH
+" C4 Christianity  Pentateuch", CH
+" C44 Christianity  Genesis", CH
+" C45 Christianity   Exodus", CH
+" C46 Christianity   Leviticus", CH
+" C47 Christianity   Numbers", CH
+" C48 Christianity   Deuteronomy", CH
+" C5 Christianity  Historical books", CH
+" C51 Christianity   Joshua", CH
+" C52 Christianity   Judges", CH
+" C53 Christianity   Ruth", CH
+" C54 Christianity   Samuel", CH
+" C55 Christianity   Kings", CH
+" C56 Christianity   Chronicles", CH
+" C57 Christianity   Ezra", CH
+" C58 Christianity   Nehemiah", CH
+" C59 Christianity   Esther", CH
+" C6 Christianity  Poetical books", CH
+" C62 Christianity   Job", CH
+" C63 Christianity   Psalms", CH
+" C65 Christianity   Proverbs", CH
+" C66 Christianity   Ecclesiastes Kohelet", CH
+" C67 Christianity   Song of songs", CH
+" C7 Christianity  Prophets C73 Isaiah", CH
+" C76 Christianity   Jeremiah", CH
+" C77 Christianity   Lamentations", CH
+" C78 Christianity   Ezekiel", CH
+" C79 Christianity   Daniel", CH
+" C8 Christianity  Minor prophets", CH
+" C81 Christianity   Hosea", CH
+" C82 Christianity   Joel", CH
+" C83 Christianity   Amos", CH
+" C84 Christianity   Obadiah", CH
+" C85 Christianity   Jonah", CH
+" C86 Christianity   Micah", CH
+" C865 Christianity  Nahum ", CH
+" C87 Christianity  Habakkuk ", CH
+" C875 Christianity  Zephaniah ", CH
+" C88 Christianity  Haggai ", CH
+" C885 Christianity  Zechariah ", CH
+" C89 Christianity  Malachi", CH
+" D0 Christianity  General including texts", CH
+" D003 Christianity  Literary aspects", CH
+" D005 Christianity  Study  teaching", CH
+" D019 Christianity  Dictionaries", CH
+" D1 Christianity  Archaeology and history as background to biblical study", CH
+" D18 Christianity  Geography", CH
+" D2 Christianity  Biography", CH
+" D3 Christianity  Theology  religion", CH
+" D4 Christianity  Gospels", CH
+" D41 Christianity  Synoptic gospels", CH
 "  D43 Matthew", CH
-" D45 Mark", CH
-" D47 Luke", CH
-" D49 John", CH
-" D5 Acts of the Apostles", CH
-" D6 Epistles", CH
-" D601 Paul", CH
-" D61 Romans", CH
-" D62 Corinthians", CH
-" D63 Galatians", CH
-" D64 Captivity epistles", CH
-" D641  Ephesians", CH
-" D642 Philippians", CH
-" D643 Colossians Philemon", CH
-" D65 Thessalonians", CH
-" D66 Pastoral epistles Timothy Titus", CH
-" D67 Hebrews", CH
-" D68 Catholic epistles", CH
-" D681 Peter", CH
-" D682 John", CH
-" D683 James Jude", CH
-" D7 Revelation", CH
-" E0 General", CH
-" E004 Bibliography", CH
-" E1 Old Testament", CH
-" E2 New T estament", CH
-" F0 General", CH
-" F1 Patrology Church Fathers", CH
-" F2 AnteNicene to 325 AD", CH
-" F21 Apostolic and subApostolic Fathers", CH
-" F23 Apologists", CH
-" F231 Justin Martyr", CH
-" F25 2nd–3rd centuries", CH
-" F251 Tertullian", CH
-" F253 Irenaeus", CH
-" F255 Cyprian", CH
-" F259 Minor figures", CH
-" F27 Alexandrians", CH
-" F271 Clement", CH
-" F273 Origen", CH
-" F274  Didymus", CH
-" F275 Evagrius", CH
-" F279 Minor figures", CH
-" F3 Nicaea to Chalcedon", CH
-" F31 Athanasius", CH
-" F32 Cyril of Alexandria", CH
-" F34 Eusebius", CH
-" F36 Antiochians", CH
-" F361 John Chrysostom", CH
-" F363 Theodore of Mopsuestia", CH
-" F365 Theodoret", CH
-" F38 Cappadocians", CH
-" F381 Basil of Caesarea", CH
-" F383 Gregory of Nyssa", CH
-" F385 Gregory of Nazianzus", CH
-" F39 Minor figures", CH
-" F4 Nicaea to Chalcedon", CH
-" F41 Hilary of Poitiers", CH
-" F43 Ambrose", CH
-" F45 Jerome", CH
-" F47 Augustine", CH
-" F48 Pelagius and the Pelagians", CH
-" F49 Minor figures", CH
-" F5 Orthodox church", CH
-" F51 John Damascenus", CH
-" F57 Greek Orthodox", CH
-" F58 Russian Orthodox", CH
-" F59 Minor figures", CH
-" F6 Mediaeval Western Church postChalcedon ", CH
-" F604 Bibliography", CH
-" F65 Late medieval", CH
-" F7 Reformation", CH
-" F704 Bibliography", CH
-" F71 Wittenberg", CH
-" F713 Luther", CH
-" F715 Melanchthon", CH
-" F73 South Germany", CH
-" F733 Bucer", CH
-" F735 Brenz", CH
-" F74 Lutheran Church Augsburg Confession", CH
-" F75 Swiss Confederation", CH
-" F753 Zwingli", CH
-" F755 Bullinger", CH
-" F77 Geneva", CH
-" F773 Calvin", CH
-" F775 Beza", CH
-" F78 Other countries", CH
-" F79 Sects", CH
-" F791 Karlstadt", CH
-" F793 Müntzer", CH
-" F795 Baptists and Anabaptists", CH
-" F797 Socinians and other antiTrinitarians", CH
-" F8 Protestant and Reformed Churches", CH
-" F85 Before 1600", CH
-" F86  17th century", CH
-" F87  18th century", CH
-" F88  19th century", CH
-" F89  20th century", CH
-" F895 21st century", CH
-" F9 Roman Catholic", CH
-" F91  Trent1600", CH
-" F92  1718th centuries", CH
-" F93  19th century", CH
-" F97  20th century", CH
-" F98  21st century", CH
-" F10  Other churches eg Armenian Coptic Syrian", CH
-" F11  Contemporary theology from 1970 Liberation theology feminist theology etc", CH
-" G0 General", CH
-" H0 General", CH
-" H1 Worship and liturgies", CH
-" H104 Bibliography", CH
-" H2  Missions", CH
-" H3  Spirituality  mysticism", CH
-" H304  Bibliography", CH
-" H35  Individual mystics  spiritual writers", CH
-" H5 Church organization including management leadership", CH
-" H7  Pastoral activities", CH
-" H8  Preaching", CH
-" H9  Moral theology", CH
+" D45 Christianity  Mark", CH
+" D47 Christianity  Luke", CH
+" D49 Christianity  John", CH
+" D5 Christianity  Acts of the Apostles", CH
+" D6 Christianity  Epistles", CH
+" D601 Christianity  Paul", CH
+" D61 Christianity  Romans", CH
+" D62 Christianity  Corinthians", CH
+" D63 Christianity  Galatians", CH
+" D64 Christianity  Captivity epistles", CH
+" D641 Christianity   Ephesians", CH
+" D642 Christianity  Philippians", CH
+" D643 Christianity  Colossians Philemon", CH
+" D65 Christianity  Thessalonians", CH
+" D66 Christianity  Pastoral epistles Timothy Titus", CH
+" D67 Christianity  Hebrews", CH
+" D68 Christianity  Catholic epistles", CH
+" D681 Christianity  Peter", CH
+" D682 Christianity  John", CH
+" D683 Christianity  James Jude", CH
+" D7 Christianity  Revelation", CH
+" E0 Christianity  General", CH
+" E004 Christianity  Bibliography", CH
+" E1 Christianity  Old Testament", CH
+" E2 Christianity  New T estament", CH
+" F0 Christianity  General", CH
+" F1 Christianity  Patrology Church Fathers", CH
+" F2 Christianity  AnteNicene to 325 AD", CH
+" F21 Christianity  Apostolic and subApostolic Fathers", CH
+" F23 Christianity  Apologists", CH
+" F231 Christianity  Justin Martyr", CH
+" F25 Christianity  2nd–3rd centuries", CH
+" F251 Christianity  Tertullian", CH
+" F253 Christianity  Irenaeus", CH
+" F255 Christianity  Cyprian", CH
+" F259 Christianity  Minor figures", CH
+" F27 Christianity  Alexandrians", CH
+" F271 Christianity  Clement", CH
+" F273 Christianity  Origen", CH
+" F274 Christianity   Didymus", CH
+" F275 Christianity  Evagrius", CH
+" F279 Christianity  Minor figures", CH
+" F3 Christianity  Nicaea to Chalcedon", CH
+" F31 Christianity  Athanasius", CH
+" F32 Christianity  Cyril of Alexandria", CH
+" F34 Christianity  Eusebius", CH
+" F36 Christianity  Antiochians", CH
+" F361 Christianity  John Chrysostom", CH
+" F363 Christianity  Theodore of Mopsuestia", CH
+" F365 Christianity  Theodoret", CH
+" F38 Christianity  Cappadocians", CH
+" F381 Christianity  Basil of Caesarea", CH
+" F383 Christianity  Gregory of Nyssa", CH
+" F385 Christianity  Gregory of Nazianzus", CH
+" F39 Christianity  Minor figures", CH
+" F4 Christianity  Nicaea to Chalcedon", CH
+" F41 Christianity  Hilary of Poitiers", CH
+" F43 Christianity  Ambrose", CH
+" F45 Christianity  Jerome", CH
+" F47 Christianity  Augustine", CH
+" F48 Christianity  Pelagius and the Pelagians", CH
+" F49 Christianity  Minor figures", CH
+" F5 Christianity  Orthodox church", CH
+" F51 Christianity  John Damascenus", CH
+" F57 Christianity  Greek Orthodox", CH
+" F58 Christianity  Russian Orthodox", CH
+" F59 Christianity  Minor figures", CH
+" F6 Christianity  Mediaeval Western Church postChalcedon ", CH
+" F604 Christianity  Bibliography", CH
+" F65 Christianity  Late medieval", CH
+" F7 Christianity  Reformation", CH
+" F704 Christianity  Bibliography", CH
+" F71 Christianity  Wittenberg", CH
+" F713 Christianity  Luther", CH
+" F715 Christianity  Melanchthon", CH
+" F73 Christianity  South Germany", CH
+" F733 Christianity  Bucer", CH
+" F735 Christianity  Brenz", CH
+" F74 Christianity  Lutheran Church Augsburg Confession", CH
+" F75 Christianity  Swiss Confederation", CH
+" F753 Christianity  Zwingli", CH
+" F755 Christianity  Bullinger", CH
+" F77 Christianity  Geneva", CH
+" F773 Christianity  Calvin", CH
+" F775 Christianity  Beza", CH
+" F78 Christianity  Other countries", CH
+" F79 Christianity  Sects", CH
+" F791 Christianity  Karlstadt", CH
+" F793 Christianity  Müntzer", CH
+" F795 Christianity  Baptists and Anabaptists", CH
+" F797 Christianity  Socinians and other antiTrinitarians", CH
+" F8 Christianity  Protestant and Reformed Churches", CH
+" F85 Christianity  Before 1600", CH
+" F86 Christianity   17th century", CH
+" F87 Christianity   18th century", CH
+" F88 Christianity   19th century", CH
+" F89 Christianity   20th century", CH
+" F895 Christianity  21st century", CH
+" F9 Christianity  Roman Catholic", CH
+" F91 Christianity   Trent1600", CH
+" F92 Christianity   1718th centuries", CH
+" F93 Christianity   19th century", CH
+" F97 Christianity   20th century", CH
+" F98 Christianity   21st century", CH
+" F10 Christianity   Other churches eg Armenian Coptic Syrian", CH
+" F11 Christianity   Contemporary theology from 1970 Liberation theology feminist theology etc", CH
+" G0 Christianity  General", CH
+" H0 Christianity  General", CH
+" H1 Christianity  Worship and liturgies", CH
+" H104 Christianity  Bibliography", CH
+" H2 Christianity   Missions", CH
+" H3 Christianity   Spirituality  mysticism", CH
+" H304 Christianity   Bibliography", CH
+" H35 Christianity   Individual mystics  spiritual writers", CH
+" H5 Christianity  Church organization including management leadership", CH
+" H7 Christianity   Pastoral activities", CH
+" H8 Christianity   Preaching", CH
+" H9 Christianity   Moral theology", CH
 " J0 Comparative religion relations of Christianity and other religions", OT
 " J1 Judaism", JU
-" J11 Theology", JU
-" J12 Philosophy", JU
-" J13 Liturgies Synagogues Rabbis", JU
-" J14 Religious practices Devotion", JU
-" J15 Spirituality  mysticism", JU
-" J16 Sects", JU
+" J11 Judaism  Theology", JU
+" J12 Judaism  Philosophy", JU
+" J13 Judaism  Liturgies Synagogues Rabbis", JU
+" J14 Judaism  Religious practices Devotion", JU
+" J15 Judaism  Spirituality  mysticism", JU
+" J16 Judaism  Sects", JU
 " J17 History of Judaism", JU
 " J18 Judaism in relation to other religions", JU
 " J2 Islam", IS
-" J21 Quran Hadith", IS
-" J22 Theology", IS
-" J23 Sufism", IS
-" J238 Other mystics", IS
-" J24 Religious practices devotion", IS
-" J25 Sects", IS
-" J252 Individual sects", IS
-" J255 Shiah", IS
-" J28 Social institutions  culture", IS
+" J21 Islam  Quran Hadith", IS
+" J22 Islam  Theology", IS
+" J23 Islam  Sufism", IS
+" J238 Islam  Other mystics", IS
+" J24 Islam  Religious practices devotion", IS
+" J25 Islam  Sects", IS
+" J252 Islam  Individual sects", IS
+" J255 Islam  Shiah", IS
+" J28 Islam  Social institutions  culture", IS
 " J3 Iranian religions eg Mithras", OT
 " J36 Zoroaster", OT
 " J4 Gnosticism Mandaeism Manichaeism", OT
@@ -227,16 +227,16 @@
 " J54 Jainism", OT
 " J55 Sikhism", OT
 " J6 Hinduism", HD
-" J61 History", HD
-" J62 Classical texts and commentaries", HD
-" J63 Theology and philosophy", HD
-" J64 Social institutions and culture", HD
+" J61 Hinduism  History", HD
+" J62 Hinduism  Classical texts and commentaries", HD
+" J63 Hinduism  Theology and philosophy", HD
+" J64 Hinduism  Social institutions and culture", HD
 " J7 Buddhism", BU
-" J71 History", BU
-" J72 Texts and commentaries", BU
+" J71 Buddhism  History", BU
+" J72 Buddhism  Texts and commentaries", BU
 " J73 Buddhist thought", BU
-" J74 Social institutions and culture", BU
+" J74 Buddhism  Social institutions and culture", BU
 " J8 Chinese religions Confucianism Taoism", OT
 " J89 Other far eastern except Japanese", OT
 " J9 Japanese religions Shinto etc see also Japanese L", OT
-" J10 Bahai religion", JU
+" J10 Bahai religion", OT
