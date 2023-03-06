@@ -9,69 +9,69 @@
 208 Sources
 209 Sects and reform movements
 210 Philosophy & theory of religion
-211 Concepts of God
-212 Existence, ways of knowing God, attributes of God
-213 Creation
-214 Theodicy
-215 Science & religion
+211 Philosophy & theory of religion - Concepts of God
+212 Philosophy & theory of religion - Existence, ways of knowing God, attributes of God
+213 Philosophy & theory of religion - Creation
+214 Philosophy & theory of religion - Theodicy
+215 Philosophy & theory of religion - Science & religion
 216 No longer used—formerly Evil
 217 No longer used—formerly Prayer
-218 Humankind
+218 Philosophy & theory of religion - Humankind
 219 No longer used—formerly Analogies
 220 The Bible
-221 Old Testament (Tanakh)
-222 Historical books of Old Testament
-223 Poetic books of Old Testament
-224 Prophetic books of Old Testament
-225 New Testament
-226 Gospels & Acts
-227 Epistles
-228 Revelation (Apocalypse)
-229 Apocrypha, pseudepigrapha, & intertestamental works
+221 The Bible - Old Testament (Tanakh)
+222 The Bible - Historical books of Old Testament
+223 The Bible - Poetic books of Old Testament
+224 The Bible - Prophetic books of Old Testament
+225 The Bible - New Testament
+226 The Bible - Gospels & Acts
+227 The Bible - Epistles
+228 The Bible - Revelation (Apocalypse)
+229 The Bible - Apocrypha, pseudepigrapha, & intertestamental works
 230 Christianity
-231 God
-232 Jesus Christ & his family
-233 Humankind
-234 Salvation & grace
-235 Spiritual beings
-236 Eschatology
+231 Christianity - God
+232 Christianity - Jesus Christ & his family
+233 Christianity - Humankind
+234 Christianity - Salvation & grace
+235 Christianity - Spiritual beings
+236 Christianity - Eschatology
 237 No longer used—formerly Future state
-238 Creeds, confessions of faith, covenants, & catechisms
-239 Apologetics & polemics
+238 Christianity - Creeds, confessions of faith, covenants, & catechisms
+239 Christianity - Apologetics & polemics
 240 Christian moral and devotional theology
 241 Christian ethics
-242 Devotional literature
-243 Evangelistic writings for individuals and families
+242 Christianity - Devotional literature
+243 Christianity - Evangelistic writings for individuals and families
 244 No longer used—formerly Religious fiction
 245 No longer used—formerly Hymnology
 246 Use of art in Christianity
-247 Church furnishings & related articles
+247 Christianity - Church furnishings & related articles
 248 Christian experience, practice, life
 249 Christian observances in family life
 250 Local Christian church and Christian religious orders
-251 Preaching (Homiletics)
-252 Texts of sermons
-253 Pastoral office and work (Pastoral theology)
-254 Parish administration
-255 Religious congregations & orders
+251 Christianity - Preaching (Homiletics)
+252 Christianity - Texts of sermons
+253 Christianity - Pastoral office and work (Pastoral theology)
+254 Christianity - Parish administration
+255 Christianity - Religious congregations & orders
 256 No longer used—formerly Religious societies
 257 No longer used—formerly Parochial schools, libraries, etc.
 258 No longer used—formerly Parochial medicine
-259 Pastoral care of families, of specific groups of people
+259 Christianity - Pastoral care of families, of specific groups of people
 260 Christian social and ecclesiastical theology
-261 Social theology and interreligious relations and attitudes
-262 Ecclesiology
-263 Days, times, places of religious observance
-264 Public worship
-265 Sacraments, other rites & acts
-266 Missions
-267 Associations for religious work
-268 Religious education
-269 Spiritual renewal
-270 History, geographic treatment, biography of Christianity
-271 Religious congregations and orders in church history
-272 Persecutions in church history
-273 Doctrinal controversies and heresies in general church history
+261 Christianity - Social theology and interreligious relations and attitudes
+262 Christianity - Ecclesiology
+263 Christianity - Days, times, places of religious observance
+264 Christianity - Public worship
+265 Christianity - Sacraments, other rites & acts
+266 Christianity - Missions
+267 Christianity - Associations for religious work
+268 Christianity - Religious education
+269 Christianity - Spiritual renewal
+270 Christianity - History, geographic treatment, biography of Christianity
+271 Christianity - Religious congregations and orders in church history
+272 Christianity - Persecutions in church history
+273 Christianity - Doctrinal controversies and heresies in general church history
 274 Christianity in Europe
 275 Christianity in Asia
 276 Christianity in Africa
