@@ -3,6 +3,7 @@ from IPython.display import display
 import os
 import matplotlib.pyplot as plt
 import math
+import numpy as np
 from nltk.tokenize import sent_tokenize
 import string
 from sklearn.model_selection import train_test_split
@@ -13,11 +14,24 @@ from sklearn.pipeline import Pipeline
 from sklearn.base import BaseEstimator
 from sklearn.pipeline import FeatureUnion
 from sklearn.linear_model import LinearRegression
+from sklearn.naive_bayes import GaussianNB,MultinomialNB
+from skmultilearn.problem_transform import BinaryRelevance
 
 enc=OneHotEncoder()
 
+class DataFrameSelector(BaseEstimator):
 
-local_path = '/Users/miadafe/Documents/uni/yr3/3931 project/religion csvs'
+    def __init__(self, attribute_names):
+        self.attribute_names= attribute_names
+
+    def fit(self,X, y = None):
+        return self
+
+    def transform(self, X):
+        return X[self.attribute_names].values
+
+
+local_path = '/content/'
 
 files = ['bahai', 'buddhism', 'christianity', 'hinduism', 'historical', 'islam','judaism', 'p_j_s', 'shinto', 't_c', 'iranian']
 additions = ['BA', 'BU', 'CR', 'HD', 'HI', 'IS', 'JU', 'IN', 'JA', 'CH', 'IR']
@@ -48,7 +62,8 @@ def imputation(combined_df):
     # drop column link
     combined_df.drop(columns=["Link"], axis=1, inplace=True)
 
-    # replace nominal categories (RE) to numerical
+    # not using get dummies on religion, doing one hot later
+    # replace nominal categories (RE) to numerical ->
     combined_df = pd.get_dummies(combined_df, columns=["Religion"])
 
     # remove rows where affilitations is null
@@ -95,24 +110,30 @@ imputed_df = imputation(combined_df)
 train_set, test_set = train_test_split(imputed_df, test_size= 0.3, random_state=42)
 # from now on only using train set -> df
 df=train_set.copy()
-data_labels=train_set["Cited by"].copy()
+# # religion is goal state -> goal state must be numerical?
+# # data_labels=train_set["Year"].copy()
+# X = df[["Language", "Year", "Cited by", "Affiliations", "Funding Details"]]
+# y = df[['Religion_BA', 'Religion_BU', 'Religion_CR', "Religion_HD", "Religion_HI", "Religion_IS", "Religion_JU", "Religion_IN", "Religion_JA", "Religion_CH", "Religion_IR"]]
 
+df['Affiliations'] = df['Affiliations'].astype(int)
+df['Language'] = df['Language'].astype(int)
+df['Funding Details'] = df['Funding Details'].astype(int)
 
 def fit():
   enc.fit(df["Affiliations"].values.reshape(-1,1))
   enc.fit(df["Language"].values.reshape(-1,1))
   enc.fit(df["Funding Details"].values.reshape(-1,1))
+  # enc.fit(df["Religion"].values.reshape(-1,1))
 
 def transform():
   enc.transform(df["Affiliations"].values.reshape(-1,1)).toarray()
   enc.transform(df["Language"].values.reshape(-1,1)).toarray()
   enc.transform(df["Funding Details"].values.reshape(-1,1)).toarray()
-
+  # enc.transform(df["Religion"].values.reshape(-1,1)).toarray()
 
 def fit_transform():
   fit()
   transform()
-
 
 # seperate pipelines for numerical and cetegorical data?
 num_attribs=["Year", "Cited by"]
@@ -121,18 +142,12 @@ cat_attribs.remove("Year")
 cat_attribs.remove("Cited by")
 # print(cat_attribs)
 
-class DataFrameSelector(BaseEstimator):
+# test here -> seemed to work indivitually, moves to fit & transform
+# enc.fit(df["Religion"].values.reshape(-1,1))
+# print(enc.categories_)
+# enc.transform(df["Religion"].values.reshape(-1,1)).toarray()
 
-    def __init__(self, attribute_names):
-        self.attribute_names= attribute_names
-
-    def fit(self,X, y = None):
-        return self
-
-    def transform(self, X):
-        return X[self.attribute_names].values
-
-
+# numeric pipeline: scales values
 num_pipeline= Pipeline([
     ('selector', DataFrameSelector(num_attribs)),
     # ('imputer',SimpleImputer(strategy="median")),
@@ -140,6 +155,7 @@ num_pipeline= Pipeline([
     ('std_scaler',StandardScaler())
 ])
 
+# categorical pipeline: encodes
 cat_pipeline = Pipeline([
     ('selector',DataFrameSelector(cat_attribs)),
     ('one hot',OneHotEncoder())
@@ -154,7 +170,18 @@ full_pipeline = FeatureUnion(transformer_list=[
 
 data_prepared = full_pipeline.fit_transform(df)
 
-# print(housing_prepared.shape)
-# print(housing_prepared)
-print(data_prepared.shape)
-print(data_prepared)
+# set feautures and predictors after fit_transform
+# religion is goal state -> goal state must be numerical?
+# data_labels=train_set["Year"].copy()
+X = df[["Year", "Cited by","Language", "Affiliations", "Funding Details"]]
+y = df[['Religion_BA', 'Religion_BU', 'Religion_CR', "Religion_HD", "Religion_HI", "Religion_IS", "Religion_JU", "Religion_IN", "Religion_JA", "Religion_CH", "Religion_IR"]]
+
+# X
+df.Language.dtype
+df.dtypes
+# data_prepared.dtypes
+
+
+# multiclass classification
+binary_rel_clf = BinaryRelevance(MultinomialNB())
+binary_rel_clf.fit(X,y)
